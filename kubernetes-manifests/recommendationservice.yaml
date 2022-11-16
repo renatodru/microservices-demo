@@ -42,6 +42,7 @@ spec:
           privileged: false
           readOnlyRootFilesystem: true
         image: recommendationservice
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
         readinessProbe:
